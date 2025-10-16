@@ -34,15 +34,15 @@ body {
 
 .header-logo {
     font-size: 36px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin-left: 16px;
-    letter-spacing: 2px;    
+    font-weight: bold;  
 }
 
 .header-nav .nav-list {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 50px;
     font-size: 18px;
     align-items: center;
 }
@@ -112,9 +112,9 @@ body {
     margin: 0 0 35px;
     color: #b5b5b5;
     padding-top: 20px;
-    padding-left: 16px;
+    list-style: inside;
     line-height: 1.8;
-    flex: 1;
+    flex-grow: 1;
 }
 
 .price .card .list-features li::marker {
