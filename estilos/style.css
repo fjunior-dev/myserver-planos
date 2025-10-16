@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c1014;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-size: 62px;
+    text-align: center;
+    margin: 46px 0;
+}
+
+.header {
+    display: flex;
+    background-color: #05080a;
+    padding: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;    
+}
+
+.header-nav .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.header-nav .nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 6px;
+}
+
+.header-nav .nav-list a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.header-nav .nav-list .list-active a {
+    background-color: #cbe300;
+    pointer-events: none;
+    
+}
+
+.header-nav .nav-list .list-active a:hover {
+    text-decoration: none;
+}
+
+.header-nav .nav-list .list-active a {
+    color: #333;
+}
+
+.price {
+    display: flex;
+    gap: 30px;
+    justify-content: center;  
+}
+
+.price .card {
+    background-color: #1f262c;
+    flex: 1;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 5px 12px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price .card .h2-card {
+    text-transform: uppercase;
+    border-bottom: 1.5px solid #cbe300;
+    margin-top: 0;
+    padding-bottom: 12px;
+    letter-spacing: 2px;  
+}
+
+.price p {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.price .card .price-card {
+    font-size: 34px;
+
+}
+
+.price .card .list-features {
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-top: 20px;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex: 1;
+}
+
+.price .card .list-features li::marker {
+    color: #cbe300;
+
+}
+
+.price .card .button {
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    background-color: #cbe300;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px;
+}
+
+.price .card .button:hover {
+    background-color: #4e5701;
+}
